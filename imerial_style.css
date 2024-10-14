@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main1{
+    width: 100%;
+    float: left;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),url("img/hero-bg.jpg");
+}
+
+.d1{
+    font-family: 'Satisfy', cursive;
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.d1 img{
+    height: 70px;
+    margin-top: 30px;
+}
+
+.d2{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.d3{
+    width: 100%;
+    float: left;
+    margin-bottom: 150px;
+}
+
+#btn1{
+    height: 30px;
+    width: 130px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
+}
+
+#btn2{
+    height: 30px;
+    width: 130px;
+    background-color: transparent;
+    color: white;
+}
+
+.main2{
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: black;
+    height: 77px;
+}
+
+
+.title{
+    width: 30%;
+    float: left;
+    /*font-family: 'Satisfy', cursive;*/
+    
+}
+.title img{
+    margin-left: 80px;
+    height: 49px;
+    margin-top: 17px;
+}
+.nevi{
+    width: 70%;
+    float: left;
+}
+
+.nevi ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.nevi ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.nevi ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+.nevi ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white;
+    transition: color 0.3s; /* Apply smooth color transition */
+}
+
+.nevi ul li:hover a {
+    color: cornflowerblue;
+}*/
+
+.main3{
+    width: 100%;
+    float: left;
+}
+
+.text3{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box3{
+    width: 75px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-left: 660px;
+}
+
+.img3{
+    width: 50%;
+    float: left;
+}
+
+.img3 img{
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 700px;
+}
+
+.text_about{
+    width: 50%;
+    float: left;
+}
+
+
+.main4{
+    width: 100%;
+    float: left;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(255, 255, 255, 0.771), 
+          rgba(247, 241, 241, 0.864)
+        ),url("img/services-bg.jpg");
+}
+
+.text4{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box4{
+    width: 100px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-left: 640px;
+}
+
+.services-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    
+
+  }
+  
+  .s1, .s2, .s3, .s4, .s5, .s6 {
+    width: calc(33.33% - 20px);
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .s1 i, .s2 i, .s3 i, .s4 i, .s5 i, .s6 i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+    background-color: cornflowerblue;
+    border: solid 1px;
+    border-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    order: -1; /* Reorder icon to the left */
+    
+  }
+  
+  .s1:hover i, .s2:hover i, .s3:hover i, .s4:hover i, .s5:hover i, .s6:hover i {
+    color: cornflowerblue;
+    background-color: white;
+    border: solid 1px;
+    border-color: cornflowerblue;
+  }
+  
+  .s1 h3, .s2 h3, .s3 h3, .s4 h3, .s5 h3, .s6 h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+  }
+  
+  .s1 p, .s2 p, .s3 p, .s4 p, .s5 p, .s6 p {
+    font-size: 0.9em;
+    margin: 0;
+  }
+
+
+.main5 {
+    width: 100%;
+    float: left;
+    /* background-image: url(img/subscribe-bg.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(img/subscribe-bg.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.text5 {
+    width: 70%;
+    float: left;
+}
+
+.text5 h1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.text5 p {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.bt1 {
+    width: 30%;
+    float: left;
+}
+
+.bt1 button {
+    margin-top: 100px;
+    width: 150px;
+    height: 30px;
+}
+
+.bt1 button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border-color: cornflowerblue;
+}
+
+.main6{
+    float:left;
+    width: 100%;
+    background: lavenderblush;
+}
+
+.text6{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box6{
+    width: 100px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-left: 645px;
+}
+
+.images{
+    width: 100%;
+    float: left;
+    /*text-align: center;*/
+    background-color: darkcyan  ;
+}
+.i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9 {
+    width: calc(33.33% - 20px); /* 33.33% width with 20px margin on the right */
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px; /* Space between rows */
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative; /* Create a relative positioning context for the image */
+    padding-bottom: calc(33.33% - 20px); /* Maintain a square aspect ratio using padding */
+    box-sizing: border-box; /* Include padding in the calculated width */
+}
+
+.i1 img, .i2 img, .i3 img, .i4 img, .i5 img, .i6 img, .i7 img, .i8 img, .i9 img {
+    position: absolute; /* Position the image absolutely within its container */
+    width: 100%; /* Make the image take up 100% of the container's width */
+    height: 100%; /* Make the image take up 100% of the container's height */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio */
+}
+
+.main7{
+    float:left;
+    width: 100%;
+
+}
+
+.text7{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box7{
+    width: 45px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-left: 675px;
+}
+
+.team_img{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.img7_1{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.img7_2{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.img7_3{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.img7_4{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.img7_1 img, .img7_2 img, .img7_3 img, .img7_4 img{
+    /*position: absolute; /* Position the image absolutely within its container */
+    width: 60%; /* Make the image take up 100% of the container's width */
+    height: 100%; /* Make the image take up 100% of the container's height */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio */
+}
+
+i.fa.fa-twitter:hover{
+    color: cornflowerblue;
+}
+
+i.fa.fa-google-plus:hover{
+    color: cornflowerblue;
+}
+i.fa.fa-facebook:hover{
+    color: cornflowerblue;
+}
+i.fa.fa-linkedin:hover{
+    color: cornflowerblue;
+}
+
+.team_img h3{
+    margin-top: -15px;
+}
+
+
+.main8 {
+    width: 100%;
+    float: left;
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+
+.text8 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box8 {
+    width: 160px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-left: 622px;
+}
+
+i.fa.fa-home {
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 43px;
+    color: white;
+    font-size: 30px;
+}
+
+i.fa.fa-home:hover {
+    background-color: white;
+    color: cornflowerblue;
+    border: 1px solid;
+    border-color: cornflowerblue;
+}
+
+.client1{
+    float: left;
+    width: 100%;
+}
+.climg1 {
+    width: 30%;
+    float: left;
+}
+
+.climg1 img {
+    border-radius: 200px;
+    width: 250px;
+    border: 7px solid;
+    border-color: white;
+    margin-left: 90px;
+}
+
+.cl1 {
+    width: 52%;
+    float: left;
+    margin-top: 48px;
+    background-color: white;
+}
+
+
+.cl1 p {
+    margin-left: 72px;
+    margin-top: -24px;
+}
+
+.cl1 img {
+    margin-top: 50px;
+    margin-left: 27px;
+    width: 28px;
+}
+
+.cl1_2 p {
+    margin-left: 26px;
+    margin-top: -8px;
+    margin-bottom: 2px;
+}
+
+.cl1_2 img {
+    margin-left: 628px;
+    margin-bottom: 62px;
+    margin-top: -19px;
+}
+
+.climg1 h1 {
+    margin-left: 98px;
+    color: cornflowerblue;
+}
+
+.climg1 p {
+    margin-left: 160px;
+}
+
+.client2{
+    float: left;
+    width: 100%;
+}
+.climg2 {
+    width: 30%;
+    float: left;
+}
+
+.climg2 img {
+    border-radius: 200px;
+    width: 250px;
+    border: 7px solid;
+    border-color: white;
+    margin-left: 90px;
+}
+
+.cl2 {
+    width: 52%;
+    float: left;
+    margin-top: 48px;
+    background-color: white;
+    margin-left: 180px;
+
+}
+
+
+.cl2 p {
+    margin-left: 72px;
+    margin-top: -24px;
+}
+
+.cl2 img {
+    margin-top: 50px;
+    margin-left: 27px;
+    width: 28px;
+}
+
+.cl2_2 p {
+    margin-left: 26px;
+    margin-top: -8px;
+    margin-bottom: 2px;
+}
+
+.cl2_2 img {
+    margin-left: 628px;
+    margin-bottom: 62px;
+    margin-top: -19px;
+}
+
+.climg2 h1 {
+    margin-left: 98px;
+    color: cornflowerblue;
+}
+
+.climg2 p {
+    margin-left: 160px;
+}
+
+.main9 {
+    width: 100%;
+    float: left;
+}
+
+.box9_1 {
+    width: 50%;
+    float: left;
+    margin-right: 70px;
+    margin-left: -100px;
+}
+
+.box9_2 {
+    width: 50%;
+    float: left;
+}
+
+.box9_1 i.fa.fa {
+    margin-left: 379px;
+    margin-top: 38px;
+    color: cornflowerblue;
+    font-size: 33px;
+}
+
+.box9_1 p {
+    margin-left: 427px;
+    margin-top: -25px;
+}
+
+.box9_2 input[type="text"] {
+    margin-top: 53px;
+    height: 24px;
+    width: 325px;
+}
