@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial</title>
+    <link rel="stylesheet" href="imerial_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (event) {
+                event.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+
+            $('#home-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main1').offset().top }, 1000);
+            });
+
+            $('#about-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main3').offset().top }, 1000);
+            });
+
+            $('#services-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main4').offset().top }, 1000);
+            });
+
+            $('#portfolio-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main6').offset().top }, 1000);
+            });
+
+            $('#team-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main7').offset().top }, 1000);
+            });
+
+            $('#testimonials-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main8').offset().top }, 1000);
+            });
+
+            $('#contact-link').on('click', function () {
+                $('html, body').animate({ scrollTop: $('.main9').offset().top }, 1000);
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main1">
+        <div class="d1">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="d2">
+            <h2>WELCOME TO IMPERIAL STUDIOS</h2>
+            <h3>We create working mobile app</h3>
+        </div>
+        <div class="d3">
+            <button id="btn1">
+                GET STARTED
+            </button>
+            <button id="btn2">
+                OUR SERVICES
+            </button>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="title">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="nevi">
+            <ul>
+                <li><a id="home-link" href="#main1">Home</a></li>
+                <li><a id="about-link" href="#main3">About</a></li>
+                <li><a id="services-link" href="#main4">Services</a></li>
+                <li><a id="portfolio-link" href="#main6">Portfolio</a></li>
+                <li><a id="team-link" href="#main7">Team</a></li>
+                <li><a id="testimonials-link" href="#main8">Testimonials</a></li>
+                <li>Drop Down</li>
+                <li><a id="contact-link" href="#main9">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="text3">
+            <h1>ABOUT US</h1>
+            <div class="box3">
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium, totam
+                rem aperiam</p>
+        </div>
+        <div class="img3">
+            <img src="img/about-img.jpg">
+        </div>
+
+        <div class="text_about">
+            <h1>We provide great services and ideass</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br>
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore<br>
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>
+                sunt in culpa qui officia deserunt molli.</p>
+        </div>
+    </div>
+    <div class="main4">
+        <div class="text4">
+            <h1>OUR SERVICES</h1>
+            <div class="box4">
+
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium, totam
+                rem aperiam</p>
+
+        </div>
+        <div class="service_details">
+            <div class="s1">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Custom Mobile App Development</h3>
+                <p>Our expert team crafts tailor-made mobile applications
+                    for iOS and Android, aligned with your
+                    business goals.</p>
+            </div>
+            <div class="s2">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design Optimization</h3>
+                <p>We create intuitive UIs and optimize UX for seamless interactions,
+                    enhancing user satisfaction.</p>
+            </div>
+            <div class="s3">
+                <i class="fas fa-code"></i>
+                <h3>Cross-Platform Development</h3>
+                <p>Reach a wider audience with apps that work
+                    consistently across different platforms.</p>
+            </div>
+            <div class="s4">
+                <i class="fas fa-sync"></i>
+                <h3>App Modernization and Updates</h3>
+                <p>We refresh existing apps with the latest trends and technologies to
+                    remain competitive.</p>
+            </div>
+            <div class="s5">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development and API Integration</h3>
+                <p>Create scalable backends and integrate third-party APIs for enriched
+                    app capabilities.</p>
+            </div>
+            <div class="s6">
+                <i class="fas fa-check-circle"></i>
+                <h3>Quality Assurance and Testing</h3>
+                <p>We conduct rigorous testing to ensure flawless app performance before launch.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="main5">
+        <div class="text5">
+            <h1>Subscribe For Updates</h1>
+            <p>Join our 1000+ subscribers and get access to the latest tools, freebies,
+                product announcements<br>and much more!</p>
+        </div>
+
+        <div class="bt1">
+            <button>SUBSCRIBE NOW</button>
+        </div>
+    </div>
+    <div class="main6">
+        <div class="text6">
+            <h1>PORTFOLIO</h1>
+            <div class="box6">
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totamrem aperiam</p>
+        </div>
+        <div class="images6">
+            <div class="i1">
+                <img src="img/portfolio/portfolio-1.jpg" alt="">
+            </div>
+            <div class="i2">
+                <img src="img/portfolio/portfolio-2.jpg" alt="">
+            </div>
+            <div class="i3">
+                <img src="img/portfolio/portfolio-3.jpg" alt="">
+            </div>
+            <div class="i4">
+                <img src="img/portfolio/portfolio-4.jpg" alt="">
+            </div>
+            <div class="i5">
+                <img src="img/portfolio/portfolio-5.jpg" alt="">
+            </div>
+            <div class="i6">
+                <img src="img/portfolio/portfolio-6.jpg" alt="">
+            </div>
+            <div class="i7">
+                <img src="img/portfolio/portfolio-7.jpg" alt="">
+            </div>
+            <div class="i8">
+                <img src="img/portfolio/portfolio-8.jpg" alt="">
+            </div>
+            <div class="i9">
+                <img src="img/portfolio/portfolio-9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="main7">
+        <div class="text7">
+            <h1>TEAM</h1>
+            <div class="box7">
+
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totamrem aperiam</p>
+
+        </div>
+        <div class="team_img">
+            <div class="img7_1">
+                <img src="img/team/team-1.jpg" alt="">
+                <h2>Jonathan Anderson</h2>
+                <h3>Co-Founder & CEO</h3>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="img7_2">
+                <img src="img/team/team-2.jpg" alt="">
+                <h2>Sarah Miller</h2>
+                <h3> Lead Mobile App Developer</h3>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="img7_3">
+                <img src="img/team/team-3.jpg" alt="">
+                <h2>David Lee</h2>
+                <h3>UX/UI Designer</h3>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="img7_4">
+                <img src="img/team/team-4.jpg" alt="">
+                <h2>Emily Rodriguez</h2>
+                <h3>QA & Testing Specialist</h3>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="main8">
+        <div class="text8">
+            <h1>TESTIMONIALS</h1>
+            <div class="box8">
+
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totamrem aperiam</p>
+
+        </div>
+        <div class="client1">
+            <div class="climg1">
+                <img src="img/client-1.jpg" alt="">
+                <h1>Saul Goodman</h1>
+                <p>Lawless Inc</p>
+            </div>
+
+            <div class="cl1">
+                <img src="img/quote_sign_left.png" alt="">
+                <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                    suscipit rhoncus.</p>
+                <div class="cl1_2">
+                    <p> Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper. </p>
+
+                    <img src="img/quote_sign_right.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="client2">
+            <div class="cl2">
+                <img src="img/quote_sign_left.png" alt="">
+                <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                    suscipit rhoncus.</p>
+                <div class="cl2_2">
+                    <p> Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper. </p>
+
+                    <img src="img/quote_sign_right.png" alt="">
+                </div>
+            </div>
+            <div class="climg2">
+                <img src="img/client-2.jpg" alt="">
+                <h1>Saul Goodman</h1>
+                <p>Lawless Inc</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main9">
+        <div class="box9_1">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>A108 Adam Street<br>
+                New York, NY 535022</p>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>info@example.com</p>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>+1 5589 55488 55s</p>
+        </div>
+        <div class="box9_2">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your email">
+            <input type="text" placeholder="Your birthdate">
+            <input type="text" placeholder="Your phone no">
+            <input type="text" placeholder="Your address">
+
+        </div>
+    </div>
+
+</body>
